@@ -42,15 +42,14 @@ const envToLogger = {
     serializers: {
       req: requestSerializer
     }
-  },
-  test: undefined
+  }
 };
 
 const start = async () => {
   const fastify = await build({
     logger: envToLogger[FREECODECAMP_NODE_ENV] ?? true,
-    genReqId: () => randomBytes(8).toString('hex')
-    // disableRequestLogging: true
+    genReqId: () => randomBytes(8).toString('hex'),
+    disableRequestLogging: true
     // trustProxy: true // Trust X-Forwarded-* headers
   });
   try {
