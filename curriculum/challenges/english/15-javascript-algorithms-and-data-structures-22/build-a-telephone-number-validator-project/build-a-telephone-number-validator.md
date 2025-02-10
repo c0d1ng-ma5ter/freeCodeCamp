@@ -515,7 +515,7 @@ assert.strictEqual(resultsDiv.innerText.trim().toLowerCase(), 'invalid us number
 When the `#user-input` element contains a valid US number and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: "` followed by the number.
 
 ```js
-
+  const resultsDiv = document.getElementById('results-div');
   const validPatterns = [
   '1 XXX-XXX-XXXX',
   '1 (XXX)XXX-XXXX',
@@ -542,7 +542,7 @@ validPatterns.forEach(pattern => {
 When the `#user-input` element contains an invalid US number and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: "` followed by the number.
 
 ```js
-
+const resultsDiv = document.getElementById('results-div');
 const invalidPatterns = [
   '10 XXX-XXX-XXXX',
   '1 (XX)XXX-XXXX',
