@@ -486,3 +486,150 @@ Which CSS property allows you to set a time before the animation begins?
 
 `animation-delay`
 
+## --quiz--
+
+### --question--
+
+#### --text--
+
+What does the `prefers-reduced-motion` media query do?
+
+#### --distractors--
+
+It does nothing.
+
+---
+
+It automatically stops all animations.
+
+---
+
+It causes the webpage to run slower.
+
+#### --answer--
+
+It allows developers to detect if the user has requested minimal animations or motion effects.
+
+### --question--
+
+#### --text--
+
+Which property defines wether an animation plays forwards, backwards, or alternates between the two?
+
+#### --distractors--
+
+`animation-fill-mode`
+
+---
+
+`animation-timing-function`
+
+---
+
+`animation-progress`
+
+#### --answer--
+
+`animation-direction`
+
+### --question--
+
+#### --text--
+
+Which of these is a potential concern when using CSS animations?
+
+#### --distractors--
+
+They can cause errors.
+
+---
+
+They can confuse screen readers.
+
+---
+
+They make the webpage visualy engaging.
+
+#### --answer--
+
+They can cause certain people to feel sick.
+
+### --question--
+
+#### --text--
+
+What does this `@keyframes` at-rule do to the animated element?
+
+```css
+@keyframes animation {
+   0% {
+     color: red;
+   }
+    50% {
+     color: blue;
+   }
+   100% {
+     color: red;
+   }
+}
+```
+
+#### --distractors--
+
+It changes the text color of the element to blue, then red, and then blue again.
+
+---
+
+It changes the background color of the element to red, then blue, and then red again.
+
+---
+
+It causes the element to rotate clockwise.
+
+#### --answer--
+
+It changes the text color of the element to red, then blue, and then red again.
+
+### --question--
+
+#### --text--
+
+Which `@keyframes` selector specifies the ending point of an animation?
+
+#### --distractors--
+
+`0%`
+
+---
+
+`25%`
+
+---
+
+`50%`
+
+#### --answer--
+
+`100%`
+
+### --question--
+
+#### --text--
+
+Whhat is the purpose of the `translateY()` function in CSS?
+
+#### --distractors--
+
+It rotates the element.
+
+---
+
+It repositions the element horizontally.
+
+---
+
+It changes the opacity of the element.
+
+#### --answer--
+
+It repositions the element vertically.
